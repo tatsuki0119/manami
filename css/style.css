@@ -88,15 +88,17 @@ header .overlay.show {
 
 #top {
   background-image: url(../img/mainvisual.png);
-  background-position: right -570px center;
+  /* background-position: right -570px center; */
+  background-position: right -570px top -100px;
   background-size: cover;
 }
 
 #top h2 {
-  padding-top: 50vh;
-  padding-bottom: 50vh;
+  padding-top: 40vh;
+  padding-bottom: 60vh;
   font-size: 30px;
   font-weight: bold;
+
 }
 
 /* policy */
