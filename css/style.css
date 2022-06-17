@@ -49,13 +49,13 @@ header #sp-menu #close {
   width: 20px;
   position: absolute;
   top: 18px;
-  right: 210px;
+  right: 260px;
   cursor: pointer;
 }
 
 header #sp-menu {
   background: goldenrod;
-  width: 200px;
+  width: 250px;
   position: absolute;
   top: 0;
   right: 0;
