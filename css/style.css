@@ -216,6 +216,18 @@ text-align: center;
   padding-right: 32px;
 }
 
+#reserve .reserve-text {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#reserve #tel {
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: #fff 1px solid;
+}
+
 #reserve input {
   background: #fff;
   border: #000 1px solid;

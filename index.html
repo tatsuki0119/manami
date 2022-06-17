@@ -222,11 +222,17 @@
     <!-- reserve -->
     <section id="reserve">
       <h2>ご予約はコチラから</h2>
+      <p class="reserve-text">ご予約はお電話か<br>下記フォームから承っております。</p>
+      <div class="reserve-text">
+        <a id="tel" href="tel:090-1234-5678">090-1234-5678</a>
+      </div>
       <form action="#" method="post">
         <!-- ↑ここにPHPのファイル名が入る -->
         <p>お名前</p>
         <input type="text" name="company-name">
         <p>お名前(カナ)<span>※</span></p>
+        <input type="text" name="name" required>
+        <p>ご紹介者(カナ)<span>※</span></p>
         <input type="text" name="name" required>
         <p>メールアドレス<span>※</span></p>
         <input type="email" name="e-mail" required>
