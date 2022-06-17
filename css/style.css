@@ -1,0 +1,234 @@
+/* common */
+
+* {
+  color: #fff;
+  font-family: 'Hiragino Mincho ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+body {
+  background: #1C0A00;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+span {
+  color: red;
+}
+
+/* header */
+
+header #sp-menu #open {
+  width: 40px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+
+header #sp-menu #open.hide {
+  display: none;
+}
+
+header #sp-menu #close {
+  width: 20px;
+  position: absolute;
+  top: 18px;
+  right: 210px;
+  cursor: pointer;
+}
+
+header #sp-menu {
+  background: goldenrod;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+header #sp-menu a {
+  color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  font-weight: bold;
+  border-bottom: #000 solid 1px;
+}
+
+header #sp-menu a::after {
+  content: "▷";
+  position: absolute;
+  right: 16px;
+}
+
+header .overlay {
+  display: none;
+}
+
+header .overlay.show {
+  display: block;
+}
+
+/* main */
+
+#top {
+  background-image: url(../img/mainvisual.png);
+  background-position: right -570px center;
+  background-size: cover;
+}
+
+#top h2 {
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* policy */
+
+h2 {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#policy01 {
+  background-image: url(../img/img01.png);
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+#policy02 {
+  background-image: url(../img/img02.png);
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+.text {
+  text-align: center;
+  background: rgb(28, 10, 0, 0.7);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* menu */
+
+#menu {
+padding-left: 32px;
+padding-right: 32px;
+margin-bottom: 48px;
+text-align: center;
+}
+
+#menu p {
+  font-size: 14px;
+}
+
+#menu .price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 1px;
+  margin-top: 48px;
+}
+
+#menu .price:first-of-type {
+  margin-top: 0;
+}
+
+#menu button {
+  margin-top: 48px;
+  border-bottom: #fff solid 1px;
+}
+
+#footer {
+  text-align: center;
+  padding: 48px;
+  background: #000;
+}
+
+/* manami */
+
+#manami {
+  margin-bottom: 48px;
+}
+
+#manami img {
+  width: 100%;
+}
+
+#manami p {
+  text-align: center;
+}
+
+#manami #name {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#manami #name p:first-child {
+  font-size: 24px;
+}
+
+#manami #name p:nth-child(2) {
+  color: goldenrod;
+}
+
+/* access */
+
+#access {
+  margin-bottom: 48px;
+}
+
+#access p {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#access iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* reserve */
+
+#reserve {
+  margin-bottom: 120px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+#reserve input {
+  background: #fff;
+  border: #000 1px solid;
+}
+
+#reserve p {
+  padding-top: 16px;
+}
+
+#reserve textarea {
+  background: #fff;
+  border: #000 1px solid;
+}
+
+#reserve button {
+  padding: 8px;
+  border: #fff 1px solid;
+}
